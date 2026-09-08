@@ -1,0 +1,547 @@
+Dependencies for Project 'rpg_game', Target 'rpg_game': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (startup_stm32f103xb.s)(0x6A925104)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o rpg_game/startup_stm32f103xb.o)
+F (..\Core\Src\fonts.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/fonts.o -MMD)
+I (..\Core\Inc\fonts.h)(0x6A925104)
+F (..\Core\Src\rc522.c)(0x6A9FCAAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/rc522.o -MMD)
+I (..\Core\Inc\rc522.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (..\Core\Src\st7789.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/st7789.o -MMD)
+I (..\Core\Inc\st7789.h)(0x6A925104)
+I (..\Core\Inc\fonts.h)(0x6A925104)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Core/Src/main.c)(0x6A9FCAAA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/main.o -MMD)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+I (..\Core\Inc\st7789.h)(0x6A925104)
+I (..\Core\Inc\fonts.h)(0x6A925104)
+I (..\hal\lcd.h)(0x6A925104)
+I (..\Core\Inc\rc522.h)(0x6A925104)
+I (..\common\definition.h)(0x6A9FBF97)
+I (..\hal\button.h)(0x6A925104)
+I (..\common\user.h)(0x6A925104)
+I (..\service\ui.h)(0x6A9FBEB3)
+I (..\common\player\player.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+I (..\common\skill\skill.h)(0x6A925104)
+I (..\common\battle\battle.h)(0x6A925104)
+F (../Core/Src/stm32f1xx_it.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_it.o -MMD)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_it.h)(0x6A925104)
+I (..\hal\button.h)(0x6A925104)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_msp.o -MMD)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_gpio_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_spi.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_rcc.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_rcc_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_gpio.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_dma.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_cortex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_pwr.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_flash.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_flash_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/stm32f1xx_hal_exti.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (../Core/Src/system_stm32f1xx.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/system_stm32f1xx.o -MMD)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (..\hal\button.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/button.o -MMD)
+I (..\hal\button.h)(0x6A925104)
+I (..\hal\button_config.h)(0x6A925104)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (..\hal\button.h)(0x6A925104)()
+F (..\hal\led.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/led.o -MMD)
+F (..\hal\led.h)(0x6A925104)()
+F (..\hal\button_config.h)(0x6A925104)()
+F (..\hal\lcd.c)(0x6A9FCA00)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/lcd.o -MMD)
+I (..\hal\lcd.h)(0x6A925104)
+I (..\Core\Inc\st7789.h)(0x6A925104)
+I (..\Core\Inc\fonts.h)(0x6A925104)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+I (..\common\player\player.h)(0x6A925104)
+I (..\common\skill\skill.h)(0x6A925104)
+F (..\hal\lcd.h)(0x6A925104)()
+F (..\hal\rfid.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/rfid.o -MMD)
+I (..\hal\rfid.h)(0x6A925104)
+I (..\Core\Inc\rc522.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+F (..\hal\rfid.h)(0x6A925104)()
+F (..\common\definition.h)(0x6A9FBF97)()
+F (..\common\monster\monster.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/monster.o -MMD)
+I (..\common\monster\monster.h)(0x6A925104)
+I (..\common\battle\battle.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+F (..\common\monster\monster.h)(0x6A925104)()
+F (..\common\campaign\campaign.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/campaign.o -MMD)
+I (..\common\campaign\campaign.h)(0x6A925104)
+F (..\common\campaign\campaign.h)(0x6A925104)()
+F (..\common\player\player.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/player.o -MMD)
+I (..\common\player\player.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+I (..\common\skill\skill.h)(0x6A925104)
+I (..\common\battle\battle.h)(0x6A925104)
+F (..\common\player\player.h)(0x6A925104)()
+F (..\service\ui.c)(0x6A9FBEB3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/ui.o -MMD)
+I (..\service\ui.h)(0x6A9FBEB3)
+I (..\common\player\player.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+I (..\common\skill\skill.h)(0x6A925104)
+I (..\common\user.h)(0x6A925104)
+I (..\common\definition.h)(0x6A9FBF97)
+I (..\Core\Inc\main.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x6A925104)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6A925104)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x6A925104)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x6A925104)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h)(0x6A925104)
+I (..\Core\Inc\st7789.h)(0x6A925104)
+I (..\Core\Inc\fonts.h)(0x6A925104)
+I (..\hal\button.h)(0x6A925104)
+I (..\common\monster\monster.h)(0x6A925104)
+I (..\common\battle\battle.h)(0x6A925104)
+I (..\common\campaign\campaign.h)(0x6A925104)
+I (..\hal\rfid.h)(0x6A925104)
+I (..\hal\lcd.h)(0x6A925104)
+F (..\service\ui.h)(0x6A9FBEB3)()
+F (..\common\battle\battle.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/battle.o -MMD)
+I (..\common\player\player.h)(0x6A925104)
+I (..\common\potion\potion.h)(0x6A925104)
+I (..\common\skill\skill.h)(0x6A925104)
+I (..\common\monster\monster.h)(0x6A925104)
+I (..\common\battle\battle.h)(0x6A925104)
+F (..\common\battle\battle.h)(0x6A925104)()
+F (..\app\user.c)(0x6A925104)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../hal -I ../common -I ../service -I ../app -I ../common/battle -I ../common/campaign -I ../common/monster -I ../common/player -I ../common/potion -I ../common/skill-I./RTE/_rpg_game-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include"-I"C:/Users/Asus Vivobook/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rpg_game/user.o -MMD)
+I (..\common\user.h)(0x6A925104)
+F (..\common\user.h)(0x6A925104)()

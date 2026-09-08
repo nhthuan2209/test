@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "name": "STM32F103",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/hal",
+        "${workspaceFolder}/common",
+        "${workspaceFolder}/common/battle",
+        "${workspaceFolder}/common/campaign",
+        "${workspaceFolder}/common/monster",
+        "${workspaceFolder}/common/player",
+        "${workspaceFolder}/service",
+        "${workspaceFolder}/app"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F103xB"
+      ],
+      "cStandard": "c11",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}
